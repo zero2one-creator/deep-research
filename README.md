@@ -1,2 +1,30 @@
-# deep-research
-Storing research results from deepresearch
+# Deep Research 研究成果仓库
+
+本仓库存放使用 [DeepResearch](https://github.com/deepresearch/deepresearch) 进行的研究成果。每个研究成果都独立存放在一个目录下，便于管理和查阅。
+
+## 存放规范
+
+### 目录结构
+
+每个研究成果应存放在一个独立的目录下，目录命名建议遵循以下规范：
+
+deep-research/
+├── README.md                    # 本文件
+├── research-001-项目名称/       # 研究成果目录
+├── research-002-项目名称/
+└── ...
+
+### 命名规范
+
+- **目录命名**：使用 `research-序号-项目名称` 的格式
+  - 序号：三位数字，从 001 开始递增
+  - 项目名称：简短描述性的英文或中文名称，使用连字符分隔
+  - 示例：`research-001-ai-safety-analysis`、`research-002-市场趋势研究`
+
+
+# 研究主题
+
+| 主题                                                                                    | 存放目录 |  |
+| --------------------------------------------------------------------------------------- | -------- | - |
+| GitHub Spec Kit 与 Fission AI OpenSpec 在 iOS 规范驱动开发（SDD）中的架构对比与选型指南 |          |  |
+|                                                                                         |          |  |
